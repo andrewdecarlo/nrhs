@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 * {
     box-sizing: border-box;
@@ -190,3 +191,213 @@ p a {
 .contact-page {
     margin: 1em 0;
 }
+=======
+
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    background-color:#34626c;
+    margin: 0;
+}
+
+
+
+.logo, .main-heading {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav, .contact p {
+    padding-bottom: 1em;
+}
+
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: .5em;
+}
+
+.liNav{
+    text-decoration: none;
+    color: #839b97;
+    /*color: black;*/
+}
+
+.nav ul li a:hover {
+    text-decoration: none;
+    color:#cfd3ce;
+}
+
+.active {
+    color:#cfd3ce;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    background-color: #cfd3ce;
+    color: #34626c;
+    margin: 0;
+}
+
+.dogFence, .catFAQImg {
+    width: 75%;
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.section {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+.section-header {
+    padding-top: 1em;
+    color: #34626c;
+}
+
+body, header, h1, h2, p, footer, ul {
+    margin: 0;
+}
+
+footer {
+    background-color: #c6b497;
+    color: #34626c;
+}
+
+.contact {
+    font-size: .75em;
+    padding: 1em;
+}
+
+.drlogo {
+   float: right;
+   width: 70px;
+}
+
+p a {
+    color: #34626c;
+    display: inline;
+    width: 15%;
+}
+
+/*FAQ*/
+.FAQ {
+    padding-bottom: 1em;
+    border-bottom: solid 1px #34626c;
+}
+
+.dogFAQImg {
+    width: 75%;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+/*ClearFix*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/*Media Queries*/
+@media (max-width: 1000px) {
+    .dogFence, .catFAQImg, .dogFAQImg{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section {
+        text-align: center;
+        width: 85%;
+        margin: 0 auto;
+        padding-bottom: 1em;
+    }
+}
+
+@media (max-width: 600px)   {
+   .main-heading {
+       display: none;
+   }
+
+   .nav ul li{
+    list-style-type: none;
+    display: block;
+    padding: .25em;
+    }
+
+    .nav ul li a {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px 48px;
+    }
+
+    .section {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0em 1em 1.5em 1em;
+    }
+    p a {
+        color: #34626c;
+        display: inline;
+        width: 25%;
+    }
+    .contact {
+        font-size: 12px;
+        padding: 1em;
+    }
+    .contact a {
+        padding: 15px 96px 15px 0px;
+    }
+}
+
+@Media (min-width: 1250px) {
+    .section {
+        text-align: center;
+        width: 870px;
+        margin: 0 auto;
+        padding-bottom: 1em;
+    }
+}
+
+/*Donation Form*/
+
+.donateHeading {
+    text-align: center;
+    padding-top: .5em;
+}
+
+.fields {
+    padding: 1em;
+}
+
+.fields input {
+    display: block;
+    margin: .25em auto 1.5em auto ;
+    text-align: center;
+    padding: .5em 4em;
+}
+
+.fields label {
+    display: block;
+    text-align: center;
+}
+
+/*Contact*/
+.contact-page {
+    margin: 1em 0;
+}
+>>>>>>> gh-pages
