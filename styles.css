@@ -159,6 +159,11 @@ p a {
         display: inline;
         width: 25%;
     }
+    .contact {
+        font-size: 12px;
+        padding: 1em;
+    }
+
 }
 
 @Media (min-width: 1250px) {
