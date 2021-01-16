@@ -144,7 +144,7 @@ p a {
 
     .nav ul li a {
         display: block;
-        width: 50%;
+        width: 100%;
         margin: 0 auto;
         padding: 20px 48px;
     }
