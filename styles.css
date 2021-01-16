@@ -21,7 +21,7 @@ header {
     vertical-align: middle;
 }
 
-.nav {
+.nav, .contact p {
     padding-bottom: 1em;
 }
 
@@ -33,8 +33,8 @@ header {
 
 .liNav{
     text-decoration: none;
-    /*color: #839b97;*/
-    color: black;
+    color: #839b97;
+    /*color: black;*/
 }
 
 .nav ul li a:hover {
@@ -45,6 +45,7 @@ header {
 .active {
     color:#cfd3ce;
     text-decoration: none;
+    font-weight: bold;
 }
 
 main {
@@ -146,7 +147,7 @@ p a {
         display: block;
         width: 100%;
         margin: 0 auto;
-        padding: 20px 48px;
+        padding: 15px 48px;
     }
 
     .section {
@@ -165,9 +166,8 @@ p a {
         padding: 1em;
     }
     .contact a {
-        padding: 15px 48px;
+        padding: 15px 96px 15px 0px;
     }
-
 }
 
 @Media (min-width: 1250px) {
@@ -192,7 +192,13 @@ p a {
 
 .fields input {
     display: block;
-    margin: .5em auto;
+    margin: .25em auto 1.5em auto ;
+    text-align: center;
+    padding: .5em 4em;
+}
+
+.fields label {
+    display: block;
     text-align: center;
 }
 
